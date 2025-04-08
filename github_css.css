@@ -1,0 +1,38 @@
+/* styles/style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.project-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.project-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-row img {
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-text {
+  width: 50%;
+}
